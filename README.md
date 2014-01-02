@@ -12,4 +12,6 @@ But if you really insist...make sure you have [SoX](http://sox.sourceforge.net/)
 
 `$ ./autotuner.rb input_filename output_filename [duration_ratio]`
 
+It will complain if you give it an invalid input_filename, and if you don't have a folder called "tmp" a level up from wherever you've cloned the repo, you're also probably going to have a bad time.
 
+Incidentally, duration_ratio lets you scale how long the "notes" of the autotuned output are. By default, they're based off a quarter note half a second long (e.g. duration_ratio = 0.5), so scale up or down as you like.
